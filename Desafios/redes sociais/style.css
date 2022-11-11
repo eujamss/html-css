@@ -1,0 +1,49 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lora:wght@500 & display=swap');
+
+
+body{
+    background-image: linear-gradient(to left, #FFDACC, #FFEEE6);
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+h1{
+    color: #83AF93;
+    font-size: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    
+   
+}
+
+h2{
+    color: #5f7e6a;
+    font-size: 22px;
+    text-align: left;
+}
+
+#perfil{
+    width: 185px;
+    border-radius: 100px;
+}
+
+p{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: #475f50;
+
+}
+
+h3{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #cc9682;
+}
+
+div:hover{
+    background-color: #475f50;
+}
