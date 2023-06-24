@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    height: 98vh;
+}
+header{
+    margin: auto;
+    color: white;
+    height: 35%;
+    background-color: black;
+}
+section#img01{
+    height: 100vh;
+    background-image: url('imagens/joaninha.jpg');
+    background-position: right center;
+}
