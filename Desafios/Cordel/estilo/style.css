@@ -30,11 +30,36 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+header a:hover, footer a:hover {
     color:blue;
     text-decoration: underline;
 }
 
 section{
-    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+
+}
+
+section.imagem{
+    color: white;
+    background-color: rgba(10, 10, 10, 0.685);
+}
+
+section.imagem > p{
+    background-color: black;
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
